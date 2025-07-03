@@ -1,6 +1,33 @@
+/*External CSS*/
+/*id*/
 #header{
     background-color: #4CAF50; 
     color: white;
     padding: 10px; 
     text-align: center; 
+}
+#footer{
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px; 
+    text-align: center;
+}
+/*class*/
+.section{
+    margin-left: 10px;
+}
+/*element*/
+h1{
+    text-align:center;
+    text-decoration: underline;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+}
+.navbar ul li:hover{
+    color: rgb(249, 254, 106);
+    cursor: pointer;
 }

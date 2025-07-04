@@ -1,0 +1,49 @@
+
+.box1{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(230, 146, 146);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+}
+.box2{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(146, 230, 146);
+    border: 2px solid rgb(0, 79, 0);
+    text-align: center;
+    align-content: center;
+}
+b{
+    display:block;
+    background-color: rgb(16, 10, 3);
+}
+*{
+    background-color: rgb(255, 255, 255);
+}
+#layout{
+    color: azure;
+}
+b:hover{
+    color: rgb(246, 255, 0);
+    font-size: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  background-color: rgb(203, 255, 30);
+}
+.container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  display:flex;
+
+}

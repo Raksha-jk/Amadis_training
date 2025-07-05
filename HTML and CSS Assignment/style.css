@@ -1,0 +1,65 @@
+#header{
+    background-color: rgb(197, 72, 239);
+    height: 100px;
+    align-content: center;
+}
+#footer{
+    background-color: rgb(197, 72, 239);
+    height: 100px;
+    align-content: center;
+    justify-items: center;
+    color: aliceblue;
+}
+.navbar ul{
+    color:aliceblue;
+    display:flex;
+    justify-content: flex-end;
+    gap:30px;
+    padding-right: 20px;
+}
+.navbar ul li:hover{
+    color: rgb(249, 254, 106);
+    cursor: pointer;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.crt-btn{
+    background-color: rgb(197, 72, 239);
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.book{
+    width: 250px;
+    height: 500px;
+    text-align: center;
+}
+.head{
+    padding: 10px;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    opacity:0.9;
+    margin: 20px auto;
+    height:auto;
+}
+.overlay{
+    border-radius: 20px;
+    text-align: center;
+    color:aliceblue;
+    padding: 20px;
+}
+.overlay:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}

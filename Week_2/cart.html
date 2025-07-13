@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="navbar">
+        <nav>
+            <ul type="none">
+                <li><a href=index.html>Home</a></li>
+                <li><a href=cart.html>Cart</a></li>
+            </ul>
+        </nav></div>
+    </header>
+    <div class="head">
+        <div class="overlay">
+            <h1>The Word Garden Bookstore</h1>
+            <p>Welcome to <i>The Word Garden Bookstore</i>. The only place to explore all variety of books. We have a wide range of books from various genres, including fiction, non-fiction, self-help, and more. Whether you're looking for a gripping novel, an inspiring biography, or a practical</p>
+        </div>
+    </div>
+    <div id=carts>
+        <div id="cart-head">
+            <span>Item</span>
+            <span>Price</span>
+            <span>Quantity</span>
+        </div>
+        <hr>
+        <div class="cart">
+        <div class="cart-items">
+                <img src="images/Atomic Habits.jpeg" width="100" height="100">
+                <span class="item-name">Atomic Habits</span>
+                <span class="item-price">855.10</span>
+                <input type="number" class="item-quantity"value="1" min="1">
+                <button class="del-btn">Remove</button>
+            </div>
+        </div>
+        <span id="total">Total : ₹0</span>
+        <hr>
+        <button id="Purchase">Purchase</button>
+    </div>
+    <footer id="footer">
+        <p>© The Word Garden Bookstore</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
